@@ -162,4 +162,10 @@ button {
     .container p {
         margin-top: -20px;
     }
+    #quotes {
+        grid-template-columns: 1fr;
+    }
+    #quotes p {
+        width: 100%;
+    }
 }

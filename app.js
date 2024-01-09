@@ -66,7 +66,7 @@ function fetchQuotesByAuthor(authorName) {
     .then((response) => response.json())
     .then((data) => {
       const quotesDiv = document.getElementById("quotes");
-      quotesDiv.innerHTML = `Quotes by ${authorName} :`;
+      quotesDiv.innerHTML = ` Quotes by ${authorName} :`;
       data.results.forEach((quote) => {
         const quoteElement = document.createElement("p");
         quoteElement.textContent = `"${quote.content}"`;

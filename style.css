@@ -16,8 +16,8 @@ body {
     font-size: calc(10px + 2vmin);
     color: white;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 button {
@@ -128,7 +128,7 @@ button {
 #quotes {
     display: grid;
     margin-left: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 5px;
     width: auto;
     height: auto;
@@ -138,10 +138,16 @@ button {
 }
 
 #quotes p {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
     background: linear-gradient(to right, #97d9de, #c4b6c5);
     color: rgb(49, 65, 77);
-    width: auto;
-    height: auto;
+    width: 500px;
+    height: 200px;
+    text-align: center;
 }
 
 @media only screen and (max-width:600px) {
